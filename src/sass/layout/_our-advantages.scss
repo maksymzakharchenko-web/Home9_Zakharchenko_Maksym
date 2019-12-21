@@ -1,0 +1,97 @@
+.our-advantages {
+  background: $secondary-bg-color;
+  button {
+    display: block;
+    margin: 0;
+    background-color: $btn-bg;
+    color: #ffffff;
+    @media (max-width: 800px) {
+      margin: 0 auto;
+    }
+    &:hover {
+      background: none;
+      color: $btn-text-color;
+      border: 2px solid $btn-bg;
+    }
+  }
+}
+
+.main-advantage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
+}
+
+.secondary-advantage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  @media (max-width: 800px) {
+    flex-direction: column-reverse;
+  }
+  button {
+    display: block;
+    margin: 0;
+    background-color: $btn-bg;
+    color: #ffffff;
+    &:hover {
+      background: none;
+      color: $btn-text-color;
+      border: 2px solid $btn-bg;
+    }
+    @media (max-width: 800px) {
+      margin: 0 auto;
+    }
+  }
+}
+
+.advantage-content {
+  display: flex;
+  flex-direction: column;
+  h3 {
+    color: $btn-text-color;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: left;
+    @media (max-width: 800px) {
+      text-align: center;
+      font-size: 30px;
+    }
+  }
+  p {
+    color: $our-advantage-text-color;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: justify;
+    @media (max-width: 800px) {
+      display: block;
+      margin: 10px auto;
+      text-align: center;
+    }
+  }
+}
+
+.advantage-img-top, .advantage-img-bottom {
+  min-width: 50%;
+  height: auto;
+  background: url("../img/siyanie.jpg") no-repeat center;
+  background-size: contain;
+  margin-right: 30px;
+  @media (max-width: 800px) {
+    width: 100%;
+    min-height: 40vh;
+    margin-bottom: 10px;
+  }
+}
+
+.advantage-img-bottom {
+  margin-left: 30px;
+  margin-right: 0;
+  @media (max-width: 800px) {
+    margin-left: 0;
+  }
+}

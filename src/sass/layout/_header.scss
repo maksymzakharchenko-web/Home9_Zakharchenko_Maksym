@@ -1,0 +1,32 @@
+.nav-bar-decoration {
+  margin-bottom: 220px;
+  @media (max-width: 1440px) {
+    margin-bottom: 140px;
+  }
+  @media (max-width: 768px) {
+    margin-bottom: 70px;
+  }
+}
+
+.logo {
+  @media (max-width: 768px) {
+    margin: 0 auto;
+  }
+}
+
+.main-menu-decoration {
+  list-style: none;
+  @media (max-width: 576px) {
+    display: none;
+  }
+  a{
+    color: #ffffff;
+    &:hover {
+      color: $main-color;
+    }
+  }
+  i {
+    color: #ffffff;
+    font-size: 14px;
+  }
+}

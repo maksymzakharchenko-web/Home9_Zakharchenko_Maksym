@@ -1,0 +1,20 @@
+@import 'utils/variables';
+
+@import "bootstrap";
+
+@import 'base/basic';
+
+@import 'layout/header';
+@import "layout/top-wrapper";
+@import "layout/about-us";
+@import "layout/our-advantages";
+@import "layout/review-box";
+@import "layout/our-services";
+@import "layout/meet-our-team";
+@import "layout/pricing";
+@import "layout/map";
+@import "layout/template-authors";
+@import 'layout/footer';
+
+@import "components/button";
+@import "components/slider";

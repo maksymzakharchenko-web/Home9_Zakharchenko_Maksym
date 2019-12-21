@@ -1,0 +1,32 @@
+.meet-our-team-content {
+  p {
+    color: $our-advantage-text-color;
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+.some-person {
+  background: $our-team-box-color;
+  padding: 100px 0;
+  color: transparent;
+  text-align: center;
+  cursor: pointer;
+  &:hover {
+    background: $main-color;
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.grey-box {
+  background: $our-team-box-color;
+}
+
+.white-box {
+  background: $secondary-bg-color;
+}
+
+.light-box {
+  background: $our-team-light-box-color;
+}
